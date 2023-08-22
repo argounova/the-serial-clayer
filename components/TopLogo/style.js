@@ -1,7 +1,7 @@
 import styled from "@emotion/styled"
 
 export const TopLogoStyles = styled.div`
-margin-top: 75px;
+margin: 10px 0px;
 display: flex;
 justify-content: center;
 width: 100vw;

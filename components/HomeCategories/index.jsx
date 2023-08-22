@@ -11,7 +11,7 @@ export const HomeCategories = () => {
   return (
     <HomeCategoryStyles>
       {categories.map((category) => (
-        <Link href={category.linkTo}>
+        <Link href={category.linkTo} key={category.id}>
           <Box
             className="category-box"
             sx={{ background: `${category.backgroundColor}` }}

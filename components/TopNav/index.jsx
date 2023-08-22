@@ -72,7 +72,7 @@ export const TopNav = (props) => {
 
   return (
     <TopNavStyles>
-      <AppBar sx={{ background: 'transparent' }}>
+      <AppBar sx={{ background: 'transparent' }} elevation={0}>
         <Toolbar id="back-to-top-anchor" className="toolbar-align">
           <IconButton
             size="large"
@@ -107,12 +107,6 @@ export const TopNav = (props) => {
               </MenuItem>
             ))}
           </Menu>
-          <Typography
-            variant="p"
-            component="div"
-          >
-          FREE SHIPPING OVER $35
-          </Typography>
           <Box>
             <IconButton
               size="large"

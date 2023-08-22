@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import { TopNav } from '../../components/TopNav'
 import { TopLogo } from '../../components/TopLogo'
+import { HorizontalStripes } from '../../components/StripeDivs/HorizontalStripes'
 import { HomeCategories } from '../../components/HomeCategories'
+import { TrendingText } from '../../components/HomeTrendingNow/TrendingText'
 
 
 export default function Home() {
@@ -15,7 +17,9 @@ export default function Home() {
       </Head>
       <TopNav />
       <TopLogo />
+      <HorizontalStripes />
       <HomeCategories />
+      <TrendingText />
     </>
   )
 }
