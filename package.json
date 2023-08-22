@@ -9,6 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@fontsource/fascinate": "^5.0.8",
+    "@fontsource/fascinate-inline": "^5.0.8",
+    "@fontsource/oxygen": "^4.5.9",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.0",
+    "framer-motion": "^10.12.7",
     "next": "13.4.17",
     "react": "18.2.0",
     "react-dom": "18.2.0"
