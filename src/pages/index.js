@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { TopNav } from '../../components/TopNav'
 import { TopLogo } from '../../components/TopLogo'
+import { HomeCategories } from '../../components/HomeCategories'
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       </Head>
       <TopNav />
       <TopLogo />
+      <HomeCategories />
     </>
   )
 }

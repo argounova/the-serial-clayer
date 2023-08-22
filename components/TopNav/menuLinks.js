@@ -2,7 +2,7 @@ export const menuLinks = [
   {
     id: 1,
     link: "SHOP",
-    linkPath: "/shop-all"
+    linkPath: "/shop/all"
   },
   {
     id: 1,
