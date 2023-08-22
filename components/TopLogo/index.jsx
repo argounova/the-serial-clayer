@@ -9,8 +9,8 @@ export const TopLogo = () => {
       <Link href={`/`}>
         <Image 
           src={`https://the-serial-clayer.s3.amazonaws.com/serial-clayer-logo-v1-fontONLY.png`}
-          width={400}
-          height={196}
+          width={300}
+          height={147}
           alt="the serial clayer official logo"
           unoptimized={true}
         />
