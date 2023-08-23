@@ -28,6 +28,7 @@
   margin: 0;
   font-family: 'Oxygen';
   color: var(--red1);
+  scroll-behavior: smooth;
 }
 
 a {
@@ -45,6 +46,40 @@ body {
   background-color: var(--vintage3);
 }
 
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
 body::-webkit-scrollbar {
   display: none;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+.container__tight {
+    max-width: 1500px;
+}
+.container__scroll {
+    overflow-x: scroll;
+    display: flex;
+    scroll-snap-type: x mandatory;
+}
+.container::-webkit-scrollbar {
+  width: 14px;
+  height: 4px;
+}
+.container::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 0px;
+}
+.container::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+.container::-webkit-scrollbar-track {
+  background: #000;
+  border-radius: 0px;
 }

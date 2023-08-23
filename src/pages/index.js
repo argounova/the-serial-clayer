@@ -3,7 +3,8 @@ import { TopNav } from '../../components/TopNav'
 import { TopLogo } from '../../components/TopLogo'
 import { HorizontalStripes } from '../../components/StripeDivs/HorizontalStripes'
 import { HomeCategories } from '../../components/HomeCategories'
-import { TrendingText } from '../../components/HomeTrendingNow/TrendingText'
+import { TrendingText } from '../../components/HomeTrendingProducts/TrendingText'
+import { HomeTrendingProducts } from '../../components/HomeTrendingProducts'
 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <HorizontalStripes />
       <HomeCategories />
       <TrendingText />
+      <HomeTrendingProducts />
     </>
   )
 }
