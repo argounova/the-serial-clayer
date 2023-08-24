@@ -11,7 +11,7 @@ import trendingProducts from "./trendingProducts"
 export const HomeTrendingProducts = () => {
   return (
     <TrendingContainerStyles>
-      <Box className="container container__tight container__scroll">
+      <Box className="container">
         {trendingProducts.map((product, index) => (
           <TrendingProductStyles key={index}>
             <Link href={`${product.linkTo}`}>
@@ -19,12 +19,13 @@ export const HomeTrendingProducts = () => {
                 className="features__item--img"
                 src={`${product.imageURL}`}
                 alt={product.altText}
-                width={350}
-                height={600}
+                width={451}
+                height={300}
               />
             </Link>
             <div className="features__item--content">
-              <h4>{product.productName}</h4>
+              <h3>{product.productName}</h3>
+              <h3><span className="previous-price">{product.previousPrice}</span>{product.productPrice}</h3>
             </div>
           </TrendingProductStyles>
         ))}

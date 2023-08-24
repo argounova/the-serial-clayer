@@ -15,6 +15,33 @@ export const TrendingContainerStyles = styled.div`
 margin-left: 16px;
 margin-bottom: 50px;
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+  overflow-x: scroll;
+  display: flex;
+  scroll-snap-type: x mandatory;
+
+  &::-webkit-scrollbar {
+    width: 14px;
+    height: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--vintage2);
+    border-radius: 0px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: var(--vintage2);
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--red1);
+  }
+}
+
 > div {
   &
   .container__scroll {
@@ -38,15 +65,14 @@ margin-bottom: 50px;
 `
 
 export const TrendingProductStyles = styled.div`
-min-height: 600px;
-background-color: #000;
-flex: 0 0 350px;
+min-height: 300px;
+flex: 0 0 300px;
 margin-bottom: 20px;
 margin-right: 20px;
 scroll-snap-align: center;
 scroll-margin-left: 25px;
 position: relative;
-border-radius: 6px;
+border-radius: 30px;
 overflow: hidden;
 transition: border-color 0.6s ease, box-shadow 0.6s ease;
 
@@ -61,8 +87,7 @@ transition: border-color 0.6s ease, box-shadow 0.6s ease;
   .features__item--img {
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
+    left: -120px;
     bottom: 0;
     z-index: 1;
     transition: transform 0.3s ease, opacity 0.3s ease;
@@ -70,23 +95,13 @@ transition: border-color 0.6s ease, box-shadow 0.6s ease;
 
   .features__item--content {
     width: 100%;
-    min-height: 300px;
+    height: fit-content;
     position: absolute;
     z-index: 2;
     padding: 20px 20px;
     top: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 1) 0%,
-      rgba(0, 0, 0, 0) 100%
-    );
-
-    h4 {
-      color: #fff;
-      text-shadow: var(--textShadow);
-    }
   }
 
   &:hover {
@@ -100,5 +115,12 @@ transition: border-color 0.6s ease, box-shadow 0.6s ease;
         opacity: 0.5;
       }
     }
+  }
+
+  .previous-price {
+    margin-right: 10px;
+    text-decoration: line-through;
+    font-size: 16px;
+    color: var(--vintage1);
   }
 `
