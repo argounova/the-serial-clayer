@@ -16,8 +16,8 @@ padding: 8px;
   align-items: center;
   margin: 5px;
   border-radius: 25px;
-  height: 125px;
-  width: 125px;
+  height: 115px;
+  width: 115px;
 }
 
 .category-icon {
