@@ -27,7 +27,7 @@ export const Contact = () => {
   const handleSendMessage = () => {
     setShowContactForm(false)
     setShowLoading(true)
-    emailjs.send('service_l8xkawv', 'turn17media_contact', templateParams, 'd-nj0U9pmkBW1-kef')
+    emailjs.send('service_ohtg133', 'theserialclayer_contact', templateParams, 'Rb50PHVpqwehDc94d')
     .then(function(response) {
         console.log(response)
         setShowLoading(false)
