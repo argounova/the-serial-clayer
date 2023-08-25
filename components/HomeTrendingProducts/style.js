@@ -18,7 +18,7 @@ margin-bottom: 50px;
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1500px;
+  max-width: 1520px;
   overflow-x: scroll;
   display: flex;
   scroll-snap-type: x mandatory;
