@@ -6,6 +6,7 @@ import { HomeCategories } from '../../components/HomeCategories'
 import { TrendingText } from '../../components/HomeTrendingProducts/TrendingText'
 import { HomeTrendingProducts } from '../../components/HomeTrendingProducts'
 import { Contact } from '../../components/Contact'
+import { Footer } from '../../components/Footer'
 
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
       <TrendingText />
       <HomeTrendingProducts />
       <Contact />
+      <Footer />
     </>
   )
 }

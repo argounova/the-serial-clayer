@@ -18,7 +18,8 @@ a {
   display: flex; 
   flex-direction: column; 
   align-items: center;
-  width: 85%;
+  width: 90%;
+  max-width: 500px;
   opacity: 0.98; 
   height: 400px;
   border-radius: 5px;

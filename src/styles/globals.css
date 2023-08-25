@@ -20,6 +20,8 @@
 
   --white: #FFF;
   --black: #000;
+
+  --gap: 10px;
 }
 
 * {
