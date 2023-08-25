@@ -5,6 +5,7 @@ import { HorizontalStripes } from '../../components/StripeDivs/HorizontalStripes
 import { HomeCategories } from '../../components/HomeCategories'
 import { TrendingText } from '../../components/HomeTrendingProducts/TrendingText'
 import { HomeTrendingProducts } from '../../components/HomeTrendingProducts'
+import { Contact } from '../../components/Contact'
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <HomeCategories />
       <TrendingText />
       <HomeTrendingProducts />
+      <Contact />
     </>
   )
 }

@@ -72,7 +72,7 @@ export const TopNav = (props) => {
 
   return (
     <TopNavStyles>
-      <AppBar sx={{ background: 'transparent' }} elevation={0}>
+      <AppBar sx={{ background: 'transparent' }} elevation={0} position="relative">
         <Toolbar id="back-to-top-anchor" className="toolbar-align">
           <IconButton
             size="large"
